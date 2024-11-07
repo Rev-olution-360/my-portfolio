@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="intro">
+<div class="container">
+    <h1>Welcome to the Revolution Graphics</h1>
+    <p> I am a graphic designer with passion for creating visual stories through images and videos.
+        Here, you’ll find a collection of my works, from creative flyers to captivating video projects.
+        Dive in to explore my journey and creative process!</p>
+ <button onclick="navigateToPortfolio()">View My Portfolio</button>
+</div>
+</section>
+<section id="portfolio" style="display: none;">
+<div class="container">
+    <h1>My Portfolio</h1>
+    <div class="gallery">
+        <img src="Images/The stewards.jpg" alt="image">
+         <img src="Images/Feeding The Streets.jpg" alt="image">
+                <video src="video/Edited Video.mp4" controls></video>
+    </div>
+</div>
+    <button onclick="navigateToIntro()">back to intro</button>
+    <footer>
+        <p> For inquiries, feel free to <a href="mailto:iamvictory0257200@gmail.com">email me</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</section>
+</body>
+</html>
